@@ -1,6 +1,6 @@
 services:
   webserver:
-    image: byjg/php:8.3-fpm-nginx
+    image: byjg/php:8.4-fpm-nginx
     environment:
       - VERBOSE=true
     volumes:
