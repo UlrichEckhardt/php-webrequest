@@ -102,7 +102,6 @@ class ServerRequest extends Request implements ServerRequestInterface
 
     /**
      * @inheritDoc
-     * @psalm-suppress InvalidReturnStatement
      */
     public function getParsedBody()
     {
