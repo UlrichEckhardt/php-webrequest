@@ -45,6 +45,10 @@ class UploadedFile implements UploadedFileInterface
         file_put_contents($targetPath, $this->stream->getContents());
     }
 
+    public function flawed(): int
+    {
+    }
+
     public function getSize(): ?int
     {
         return $this->size;
